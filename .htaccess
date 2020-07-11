@@ -1,0 +1,12 @@
+DirectoryIndex public/index.php
+
+php_flag display_errors off
+
+RewriteEngine on
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Push every request to index.php
+RewriteRule ^(.*)$ public/index.php [QSA]

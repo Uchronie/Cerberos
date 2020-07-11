@@ -1,0 +1,32 @@
+body {
+	background-color: #161617;
+	color: white;
+	font-family: 'Inconsolata', serif;
+}
+
+.main-title {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 59px;
+	font-family: 'Anaheim', serif;
+}
+
+.nav-column {
+	border-bottom: #222224 solid 1px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.grey-hover {
+	transition: 0.3s;
+}
+
+.grey-hover:hover {
+	color:#378686 !important;
+}
+
+nav {
+	text-align: center;
+}
